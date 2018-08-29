@@ -1,0 +1,17 @@
+/*All code original and creaed by Almitra Dabholkar*/
+{
+  "name": "alert",
+  "manifest_version": 2,
+  "version": "1.0",
+  "description": "Recieve email notificatons from up to 10 adresses of your choice.",
+  "icons":{
+    "128": "icon128.png",
+    "48": "icon48.png",
+    "16": "icon24.png"
+  },
+  "browser_action": {
+    "default_icon": "icon24.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage"]
+}

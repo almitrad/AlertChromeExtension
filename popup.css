@@ -1,0 +1,89 @@
+/*All code original and creaed by Almitra Dabholkar*/
+body{
+	width: 300px;
+	height: 450px;
+}
+
+#icon{
+ 	margin-left: 30%;
+ 	margin-right: 30%;
+}
+
+.text{
+	padding: 20px;
+}
+
+h1{
+	color: #888888;
+	font-family: "proxima-nova", sans-serif;
+	font-size: 36px;
+	line-height: 46px;
+	text-align: center;
+	font-weight: 100;
+}
+
+h3{
+	color: #666666;
+	font-family: "proxima-nova", sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+	text-align: center;
+	font-weight: 100;
+}
+
+input{
+	width: 250px;
+	height: 30px;
+	border: none;
+	border-bottom: 1px solid grey;
+	color: #444444;
+	font-size: 18px;
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 100;
+}
+
+input:focus{
+	outline-style:none;
+	box-shadow:none;
+	border-color:transparent;
+	border-bottom: 1px solid lightgrey;
+}
+
+h4{
+	display: inline-block;
+}
+
+#save {
+    background-color: #f4a197; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 25px;
+}
+
+button:hover {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.delete{
+	float: right;
+	margin-top: 12px;
+	display: inline-block;
+	border: none;
+	background-color:#E6E6E6; 
+	color: black;
+	padding: 5px 15px;
+	text-decoration: none;
+	font-size: 14px;
+
+}
+
+button:focus{
+	outline: none;
+}
